@@ -29,7 +29,7 @@ function HomePageHero({ title, subtitle, skills = [] }: IProps) {
           <SimpleGrid width="full" templateColumns={[`repeat(2, 1fr)`, null, null, `repeat(3, 1fr)`]} gap={6}>
             {skills.map((skill, key) => (
               <Box width="full" key={key} data-testid={`skill-box-${key}`} tabIndex={key}>
-                <Card px="14" py="6" display={['block', 'flex']} alignItems="center">
+                <Card p="6" display={['block', 'flex']} alignItems="center">
                   {React.createElement(skill.iconComponent, { boxSize: skill.iconSize })}
                   <Box ml={[0, 4]} flexDir="column" textAlign="left" display={['none', 'flex']}>
                     <Text fontSize="2xl">{skill.name}</Text>
