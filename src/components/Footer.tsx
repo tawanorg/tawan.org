@@ -23,7 +23,7 @@ function Footer({ title, subtitle }: IProps) {
           <a rel="noreferrer" href="https://instagram.com/tawanorg" target="_blank">
             <IGIcon boxSize={8} color="white" />
           </a>
-          <a rel="noreferrer" href="https://www.aedin.com/in/tawanc/" target="_blank">
+          <a rel="noreferrer" href="https://www.linkedin.com/in/tawanc/" target="_blank">
             <LinkedInIcon boxSize={8} color="white" />
           </a>
         </SimpleGrid>
