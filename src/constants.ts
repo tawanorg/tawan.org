@@ -15,7 +15,7 @@ export const APP_SUBTITLE = 'Everything you’ve ever wanted to know about me an
 export const SKILLS: ISkill[] = [
   {
     name: 'TypeScript',
-    description: 'Writing Type-Safe(ish) JS Code',
+    description: 'Writing Type-Safe(ish) apps',
     iconComponent: TSIcon,
     iconSize: 14,
   },
