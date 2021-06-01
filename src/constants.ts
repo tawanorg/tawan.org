@@ -8,7 +8,7 @@ import { ISkill } from "./types";
 
 export const APP_NAME = 'TAWAN';
 
-export const APP_TITLE = 'Just another Fullstack Engineer';
+export const APP_TITLE = 'I work as a Fullstack Engineer';
 
 export const APP_SUBTITLE = 'Everything you’ve ever wanted to know about me and more.';
 
