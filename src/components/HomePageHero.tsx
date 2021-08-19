@@ -21,7 +21,7 @@ function HomePageHero({ title, subtitle, skills = [] }: IProps) {
           <Heading size="2xl" my="4">
             <Emoji label="Hi, I'm Tawan" symbol="👋" /> {title}
           </Heading>
-          <Text fontSize="2xl" color="gray.500">
+          <Text fontSize="2xl" color="gray.500" maxW="xl">
             {subtitle}
           </Text>
         </Flex>
