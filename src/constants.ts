@@ -8,9 +8,9 @@ import { ISkill } from "./types";
 
 export const APP_NAME = 'TAWAN';
 
-export const APP_TITLE = 'I work as a Fullstack Engineer';
+export const APP_TITLE = "Hi, It's Tawan."
 
-export const APP_SUBTITLE = 'Everything you’ve ever wanted to know about me and more.';
+export const APP_SUBTITLE = "I'm working in Software Design & Development as a Frontend Developer, Fullstack Developer and Engineering Manager";
 
 export const SKILLS: ISkill[] = [
   {
