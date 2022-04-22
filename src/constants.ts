@@ -10,7 +10,7 @@ export const APP_NAME = 'TAWAN';
 
 export const APP_TITLE = "Hi, It's Tawan."
 
-export const APP_SUBTITLE = "I'm working in Software Design & Development as a Frontend Developer, Fullstack Developer and Engineering Manager";
+export const APP_SUBTITLE = "I'm working in Software Design & Development. Design ";
 
 export const SKILLS: ISkill[] = [
   {
@@ -21,13 +21,13 @@ export const SKILLS: ISkill[] = [
   },
   {
     name: 'React',
-    description: 'Reusable and Testable UIs',
+    description: 'Reusable & Testable UIs',
     iconComponent: ReactIcon,
     iconSize: 14,
   },
   {
     name: 'Node',
-    description: 'Microservices and APIs',
+    description: 'MicroServices and API-First',
     iconComponent: NodeIcon,
     iconSize: 14,
   },
@@ -39,13 +39,13 @@ export const SKILLS: ISkill[] = [
   },
   {
     name: 'GraphQL',
-    description: 'Apollo, Prisma & Hasura',
+    description: 'Apollo & Prisma',
     iconComponent: GQLIcon,
     iconSize: 14,
   },
   {
     name: 'ReactNative',
-    description: 'Develop mobile apps',
+    description: 'Cross-platform Mobile Apps',
     iconComponent: RNIcon,
     iconSize: 14,
   },
