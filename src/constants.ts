@@ -10,7 +10,7 @@ export const APP_NAME = 'TAWAN';
 
 export const APP_TITLE = "Hi, It's Tawan."
 
-export const APP_SUBTITLE = "I'm working in Software Design & Development. Design ";
+export const APP_SUBTITLE = "I'm working in Software Design & Development. 🫶";
 
 export const SKILLS: ISkill[] = [
   {
