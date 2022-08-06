@@ -2,7 +2,7 @@ import { Heading, Text, Flex, SimpleGrid} from '@chakra-ui/react';
 import IGIcon from '../icons/IGIcon';
 import LinkedInIcon from '../icons/LinkedInIcon';
 import TwitterIcon from '../icons/TwitterIcon';
-import DribbleIcon from '../icons/TwitterIcon';
+import DribbleIcon from '../icons/DribbleIcon';
 
 type IProps = {
   title: string
