@@ -26,7 +26,7 @@ function HomePage() {
           </Flex>
           <BlogCard /> */}
         </Container>
-        <Box my={20} />
+ 
         <Footer title={APP_NAME} subtitle={APP_TITLE} />
       </BodyBox>
     </>
