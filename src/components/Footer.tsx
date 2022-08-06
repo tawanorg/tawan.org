@@ -11,8 +11,8 @@ type IProps = {
 
 function Footer({ title, subtitle }: IProps) {
   return (
-    <Flex pos="fixed" bottom={0} justifyContent="center">
-    <Flex p={6} justifyContent="space-between" alignItems="center" width="full" maxW="4xl">
+    <Flex pos="fixed" bottom={0} justifyContent="center" w="full">
+    <Flex p={6} justifyContent="space-between" alignItems="center" width="full" maxW="5xl">
       <Flex pl="6" py={4} backgroundColor="brand.normal" width="full" borderRadius="3xl" minH="12" justifyContent="space-between">
         <Flex flexDir="column" alignItems="flex-start" color="white">
           <Heading fontSize="xl">{title}</Heading>
