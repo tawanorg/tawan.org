@@ -17,7 +17,7 @@ function Footer({ title, subtitle }: IProps) {
           <Heading fontSize="xl">{title}</Heading>
           <Text display={['none', 'inline-block']} fontSize="sm">{subtitle}</Text>
         </Flex>
-        <SimpleGrid templateColumns="repeat(4, 1fr)" gap={6} alignItems="center">
+        <SimpleGrid templateColumns="repeat(5, 1fr)" gap={6} alignItems="center">
           <a rel="noreferrer" href="https://dribbble.com/tawanorg" target="_blank">
             <DribbleIcon boxSize={8} color="white" />
           </a>
