@@ -1,4 +1,4 @@
-import { Heading, Text, Flex, SimpleGrid} from '@chakra-ui/react';
+import { Heading, Text, Flex, SimpleGrid, Box } from '@chakra-ui/react';
 import IGIcon from '../icons/IGIcon';
 import LinkedInIcon from '../icons/LinkedInIcon';
 import TwitterIcon from '../icons/TwitterIcon';
@@ -11,30 +11,26 @@ type IProps = {
 
 function Footer({ title, subtitle }: IProps) {
   return (
-    <Flex pos="fixed" bottom={0} justifyContent="center" w="full">
-    <Flex p={6} justifyContent="space-between" alignItems="center" width="full" maxW="5xl">
-      <Flex pl="6" py={4} backgroundColor="brand.normal" width="full" borderRadius="3xl" minH="12" justifyContent="space-between">
-        <Flex flexDir="column" alignItems="flex-start" color="white">
-          <Heading fontSize="xl">{title}</Heading>
-          <Text display={['none', 'inline-block']} fontSize="sm">{subtitle}</Text>
-        </Flex>
-        <SimpleGrid templateColumns="repeat(5, 1fr)" gap={6} alignItems="center">
-          <a rel="noreferrer" href="https://dribbble.com/tawanorg" target="_blank">
-            <DribbleIcon boxSize={8} color="white" />
-          </a>
-          <a rel="noreferrer" href="https://twitter.com/tawanorg" target="_blank">
-            <TwitterIcon boxSize={8} color="white" />
-          </a>
-          <a rel="noreferrer" href="https://instagram.com/tawanorg" target="_blank">
-            <IGIcon boxSize={8} color="white" />
-          </a>
-          <a rel="noreferrer" href="https://www.linkedin.com/in/tawanorg/" target="_blank">
-            <LinkedInIcon boxSize={8} color="white" />
-          </a>
-        </SimpleGrid>
+    <Flex pos="fixed" bottom={0} justifyContent="flex-end" w="full">
+      <Flex p={6}>
+        <Box p={6} backgroundColor="brand.normal" width="full" borderRadius="3xl">
+          <SimpleGrid templateColumns="repeat(4, 1fr)" gap={6} alignItems="center">
+            <a rel="noreferrer" href="https://dribbble.com/tawanorg" target="_blank">
+              <DribbleIcon boxSize={8} color="white" />
+            </a>
+            <a rel="noreferrer" href="https://twitter.com/tawanorg" target="_blank">
+              <TwitterIcon boxSize={8} color="white" />
+            </a>
+            <a rel="noreferrer" href="https://instagram.com/tawanorg" target="_blank">
+              <IGIcon boxSize={8} color="white" />
+            </a>
+            <a rel="noreferrer" href="https://www.linkedin.com/in/tawanorg/" target="_blank">
+              <LinkedInIcon boxSize={8} color="white" />
+            </a>
+          </SimpleGrid>
+        </Box>
       </Flex>
     </Flex>
-          </Flex>
   )
 }
 
