@@ -13,7 +13,7 @@ type IProps = {
 function HomePageHero({ title, subtitle, skills = [] }: IProps) {
   return (
     <Box minHeight="100vh">
-      <Box textAlign="center" pt="28">
+      <Box textAlign="center" py="28">
         <Flex flexDir="column" alignItems="center">
           <Box mb="4">
             <Image shadow="inner" boxSize="200px" src="tawan.png" alt="Tew Tawan" borderRadius="full" fallback={<Spinner />} />
